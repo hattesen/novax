@@ -1,0 +1,89 @@
+/*************************************************************************************
+ TopMenu 
+*************************************************************************************/
+.menu_top {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        padding: 0px;
+        list-style-type:none;
+               font-size: 1em;
+font-family: verdana, sans serif;
+}
+
+.menu_top_item, .menu_top_selected_item {
+        float: left;
+}
+
+.menu_top_item a, .menu_top_item a:visited, .menu_top_item a:active {
+        margin-left: 18px;
+        margin-right: 18px;
+        color: #06a7a1;
+        text-decoration: none;
+               /* font-weight: bold;*/
+}
+
+.menu_top_selected_item a, .menu_top_selected_item a:visited, .menu_top_selected_item a:active {
+        margin-left: 18px;
+        margin-right: 18px;
+        color: #000;
+        text-decoration: none;
+               /* font-weight: bold;*/
+}
+
+.menu_top_item a:hover, .menu_top_item a:hover, .menu_top_selected_item a:hover  {
+color: #999999;}
+
+
+/*************************************************************************************
+ LeftMenu 
+*************************************************************************************/
+
+
+.menu {
+        margin-left: 10px;
+        list-style-type: none; 
+        padding: 0px;
+font-family: calibri, sans serif;
+
+
+}
+
+.menu_item a, .menu_item a:visited, .menu_item a:active {
+        margin: 0px;
+        padding: 0px;
+       color: #06a7a1;
+        text-decoration: none;
+               /* font-weight: bold;*/
+}
+
+.menu_selected_item a, .menu_selected_item a:visited, .menu_selected_item a:active {
+        margin: 0px;
+        padding: 0px;
+       color: #000000;
+        text-decoration: none;
+        
+      /*  font-weight: bold;*/
+}
+
+.menu_selected_item .menu_item a, .menu_selected_item .menu_item a:visited, .menu_selected_item .menu_item a:active {
+        margin: 0px;
+        padding: 0px;
+       color: #000000;
+        text-decoration: none;
+              /*  font-weight: bold;*/
+}
+
+ .menu_item a:hover, .menu_selected_item a:hover, .menu_selected_item .menu_item a:hover {
+color: #999999;
+}
+
+
+.menu_item {
+        margin-bottom: 10px;
+}
+
+.menu_selected_item {
+        margin-bottom: 10px;
+}
