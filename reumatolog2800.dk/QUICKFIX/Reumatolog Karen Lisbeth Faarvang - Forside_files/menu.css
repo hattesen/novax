@@ -1,14 +1,15 @@
 /*************************************************************************************
  TopMenu 
 *************************************************************************************/
-ul.menu_top {
+.menu_top {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        padding: 0px;
         list-style-type:none;
-        font-size: 1em;
-		font-family: verdana, "sans serif";			
-		padding: 0px;
-		display: flex;
-		justify-content:space-between;
-		list-style-type: none;		
+               font-size: 1em;
+font-family: verdana, sans serif;
 }
 
 .menu_top_item, .menu_top_selected_item {
@@ -16,25 +17,23 @@ ul.menu_top {
 }
 
 .menu_top_item a, .menu_top_item a:visited, .menu_top_item a:active {
-        /* margin-left: 14px; /* astma.dk */
-        /* margin-right: 14px; /* astma.dk */
-        color: #06a7a1; /* astma.dk #012B60; */
+        margin-left: 18px;
+        margin-right: 18px;
+        color: #06a7a1;
         text-decoration: none;
-        /* font-weight: bold;*/
+               /* font-weight: bold;*/
 }
 
 .menu_top_selected_item a, .menu_top_selected_item a:visited, .menu_top_selected_item a:active {
-        /*margin-left: 18px;
+        margin-left: 18px;
         margin-right: 18px;
-		astma.dk */
-        color: #000000;
+        color: #000;
         text-decoration: none;
-        font-weight: bold; /* astma.dk */
+               /* font-weight: bold;*/
 }
 
 .menu_top_item a:hover, .menu_top_item a:hover, .menu_top_selected_item a:hover  {
-		color: #999999;
-}
+color: #999999;}
 
 
 /*************************************************************************************

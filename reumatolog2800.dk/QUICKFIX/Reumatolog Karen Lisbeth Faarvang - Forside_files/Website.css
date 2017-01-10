@@ -1,4 +1,4 @@
-body {
+html, body {
         margin: 0px;
         padding: 0px;
         
@@ -17,7 +17,11 @@ border:none;
 
 html {
         overflow-y:scroll;
+     
 }
+
+
+
 
 /**** typografi *****/
 
@@ -63,7 +67,7 @@ a:hover {
 }
 
 p {
-/* padding:5px 0px 0px 0px; ??*/
+padding:5px 0px 0px 0px;
 }
 
 
@@ -79,45 +83,68 @@ p {
 /*****  Layoutstruktur  ******/
 
 
-body > div {
-	width:950px;
-    /*min-height: 220px;*/
-	margin:auto;
-	background-color:#ffffff;
-}
+
 
 
 #wrapper_top {
-	/* margin:auto; astma.dk */
+       width: 950px;
+       height: 250px;
+       margin:auto;
        /*background-color:#000;*/
+        
+        
 }
+        
+
+        
         
 #top {
-}
-     
+        width: 950px;
+        height: 250px;
+        background-color:#ffffff;
+        /*float:left;*/
+        margin:auto;
+        
+        }
+        
+
+
+        
 #wrapper_menu {
+        width: 950px;
+        height: 49px;
+        margin:auto;
+        background-color:#ffffff;
         text-align:center;
-        /* letter-spacing:2px; astma.dk */
-		margin: auto;
-}       
+        letter-spacing:2px;
+        
+}
         
 #nav {
-	clear: both;
-	min-height: 40px;
-	margin: 15px;
-}       
+        padding:10px 0px 0px 0px;
+        width:950px;
+        margin:auto;
+        height: 40px;
+        }
         
 #wrapper_indhold {
+        width: 950px;
         overflow:auto; 
+        background-color:#ffffff;
+        margin:auto;
         line-height:165%;
+
 }
 
 #content_et {
         clear:both;
+        width: 905px;
         min-height: 220px;
-        /* float:left; */
-        margin: 30px;
-}
+        float:left;
+        padding:30px 20px 20px 25px;
+
+        
+        }
         
 #content_left{
         width: 260px;
@@ -126,7 +153,8 @@ body > div {
         padding:20px;
         font-size: 1.20em;
         letter-spacing:2px;
-}
+        
+                }
         
 #content_right{
         width: 610px;
@@ -139,18 +167,34 @@ body > div {
       
         
         }
+        
+
+/*#streg {
+        clear:both;
+        /*width:100%;*/
+
+        width:950px;
+        margin:auto;
+        height:1px;
+        background-color:#929392;
+        }
+*/
 
 #wrapper_footer {
+        width: 950px;
         /*width: 100%;*/
         min-height: 36px;
-        /*padding: 4px 0px 0px 0px;*/
+        padding: 4px 0px 0px 0px;
+        background-color:#ffffff;
         font-family: calibri, sans serif;
         font-size: 1.25em;
+        margin:auto;
         color:#999999;
         letter-spacing:2px;
        }
 #footer_pic {
         clear:both;
+        width:950px;
         height:60px;
     /*    padding: 5px 0px 0px 0px;*/
         
@@ -159,7 +203,9 @@ margin:auto;
         }
         
 #footer_text {
+
         clear:both;
+        width:950px;
         height:25px;
         padding: 5px 0px 0px 0px;
         margin:auto;
